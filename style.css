@@ -56,7 +56,7 @@
     width: 100%;
     height: 100%;
     grid-template-columns: 225px 225px 225px 225px 225px 225px;
-    grid-template-rows: 100px 80px 450px auto auto auto;
+    grid-template-rows: 100px 80px auto 225px 255px 300px;
     grid-column-gap: 10px;
     grid-row-gap: 30px;
     padding: 10px;
@@ -66,28 +66,27 @@
 }
 .index >div{
    
-    padding: 10;
+    padding: 10px;
     text-align: center;
 }
 .portfolio >div{
     
-    padding: 10;
+    padding: 10px;
     font-size: small;
 }
 .contact >div{
     
-    padding: 10;
+    padding: 10px;
     font-size: small;
 }
 .blog >div{
     
-    padding: 10;
+    padding: 10px;
     font-size: small;
 }
 .sitereport >div{
-    border: 1px solid black;
-    padding: 10;
-    font-size: small;
+    
+    padding: 10px;
 }
 .text1{
     grid-column-start: 1;
@@ -185,7 +184,7 @@ h3{
     
 }
 h4{
-    font-size: 40px;
+    font-size: 25px;
     margin: 30px;
     padding: 30px;
 }   
@@ -195,95 +194,43 @@ h5{
     padding: 20px;
 }
 h6{
-    font-size: 40px;
-    margin: 40px;
-    padding: 20px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
 }  
 h7{
     font-size: 20px;
 }
-h8{
-    font-size: 20px;
-    
-}
-h9{
-    font-size: 55px;
-    margin: 4px;
-}
-h10{
-    font-size: 60px;
-    text-align: left;
-}
-h11{
-    font-size: 40px;
-}
-h12{
-    font-size: 40px;
-}
-h13{
-    font-size: 40px;
-}
-h14{
-    font-size: 40px;
-}
-h15{
-    font-size: 40px;
-}
-h16{
-    font-size: 40px;
-}
-h17{
-    font-size: 50px;
-}
-p1{
+p{
     font-size: 25px;
 } 
-p2{
-    font-size: 25px;
-}
-p3{
-    font-size: 25px;
-}
-p4{
-    font-size: 25px;
-    margin
-}
-p5{
+.portfolio1 >nav{
     font-size: 20px;
 }
-p6{
-    font-size: 20px;
-    
-}
-p7{
-    font-size: 20px;
-    
-}
-p8{
+.portfolio1 >P{
     font-size: 20px;
 }
-p9{
+.contact1 >h6{
+    font-size: 40px;
+    margin: 8px;
+}
+.blog1 >P{
     font-size: 20px;
 }
-p10{
+.blog4 >P{
     font-size: 20px;
 }
-
-p14{
+.blog5 >P{
     font-size: 20px;
 }
-p15{
+.sitereport2>P{
+    font-size: 23px;
+}
+.sitereport7 >P{
     font-size: 20px;
 }
-p16{
-    font-size: 20px;
-}
-p17{
-    font-size: 20px;
-}
-p18{
-    font-size: 20px;
-    text-align: left;
+.sitereport8 >P{
+    font-size: 15px;
 }
 .portfolio1{
     grid-column-start: 1;
@@ -301,7 +248,7 @@ p18{
 
     grid-column-start: 5;
     grid-column-end: 7 ; 
-    height: 223px;
+    height: 143px;
     background: -webkit-linear-gradient(right,rgb(26, 26, 252), rgb(81, 81, 255))
 }
 .portfolio4{
@@ -368,13 +315,40 @@ p18{
 .sitereport1{
     grid-column-start: 1;
     grid-column-end: 7;
+    border: 2px solid black;
     
 }
-@media screen and( max-width: 500px){
-    .index{
-        display:grid;
-        grid-template-columns:auto;
-    }
+.sitereport2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border: 2px solid black;
 }
+.sitereport3{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    
+}
+.sitereport7{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    border: 2px solid black;
+}
+.sitereport8{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 2px solid black;
+}
+.sitereport9{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    border: 2px solid black;
+}
+.sitereport16{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+}
+
+
    
 
